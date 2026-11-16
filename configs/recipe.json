@@ -1,0 +1,24 @@
+{
+  "seed": 17,
+  "providers": ["deepseek", "claude"],
+  "parameter_budget": 8192,
+  "maximum_parameter_blocks": 8,
+  "proposal_stages": 2,
+  "candidates_per_stage": 6,
+  "candidate_menu": ["four shared anchors", "API fit specification", "shared fixed-extra specification"],
+  "optimizer": {
+    "name": "Adam",
+    "steps": 80,
+    "learning_rate": 0.03,
+    "betas": [0.9, 0.999],
+    "epsilon": 1e-8,
+    "initial_patch": "zero",
+    "parameter_scale": "max(0.01, RMS of selected W0 block)"
+  },
+  "selection": {
+    "minimum_cv_relative_improvement": 0.001,
+    "maximum_feedback_loss_increase": 0.05,
+    "native_feasibility": true
+  },
+  "deployment": "replace total patch relative to the same original checkpoint"
+}
