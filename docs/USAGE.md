@@ -73,12 +73,11 @@ decoding. For constrained optimization it also retains completion/correction.
 Configure task feasibility checks through the Python <code>FeedbackEditor</code>
 interface or a manifest <code>validate</code> callback. For AP/F1, set
 <code>higher_is_better</code> to true: validation minimizes one minus the score,
-and the runner reports the original metric. Source checkpoints and dataset links are listed in
-[the task catalog](DATASETS.md).
+and the runner reports the original metric. 
 
 ## Run both services
 
-Configure the service variables in [.env.example](../.env.example), export them
+Configure the service variables in .env.example, export them
 in your shell, and run:
 
 ~~~bash
