@@ -2,6 +2,8 @@
 
 Requirements: Python 3.10 or later, NumPy, SciPy, and PyTorch.
 
+Provided solely for confidential peer review. The terms are in LICENSE.
+
 ## Install
 
 ```sh
