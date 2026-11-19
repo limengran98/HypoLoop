@@ -1,0 +1,48 @@
+{
+  "task": "RS01",
+  "name": "SpaceNet7 building change",
+  "provider": "claude",
+  "metric": "F1",
+  "scores": {
+    "Base": 0.0,
+    "Adam": 0.5778571428571428,
+    "Memory": 0.33280757097791797,
+    "Calib": 0.0,
+    "HL-Global": 0.763664596273292,
+    "HL-Local": 0.5797001550921937,
+    "HypoLoop": 0.5170431211498974,
+    "HL-Auto": 0.39619721423833737
+  },
+  "valid_support": 36864,
+  "prediction": {
+    "kind": "binary_mask",
+    "threshold_native_logit": 0,
+    "categories": [
+      0,
+      1
+    ],
+    "category_names": [
+      "no change",
+      "building change"
+    ],
+    "unit": "class",
+    "shared_across_methods": true,
+    "background_color": "#f8f8f8",
+    "invalid_color": "#d8d8d8",
+    "per_method_rescaling": false,
+    "foreground_color": "#2ca25f",
+    "target_foreground_color": "#e3b72f"
+  },
+  "error": {
+    "shown": true,
+    "kind": "pixel_confusion_category",
+    "unit": "class",
+    "categories": {
+      "false_positive": "#d6604d",
+      "false_negative": "#4393c3",
+      "correct": "#f8f8f8",
+      "invalid": "#d8d8d8"
+    },
+    "shared_across_methods": true
+  }
+}

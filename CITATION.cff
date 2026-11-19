@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use HypoLoop, please cite the arXiv preprint."
+title: "HypoLoop"
+type: software
+license: MIT
+repository-code: "https://github.com/limengran98/HypoLoop"
+authors:
+  - name: "HypoLoop contributors"
+preferred-citation:
+  type: article
+  title: "HypoLoop: Revising Weight-Editing Plans from Scientific Feedback"
+  journal: arXiv
+  year: 2026
+  doi: "10.48550/arXiv.2611.23718"
+  url: "https://arxiv.org/abs/2611.23718"
+  authors:
+    - family-names: "Li"
+      given-names: "Mengran"
+    - family-names: "Yan"
+      given-names: "Xichen"
+    - family-names: "Li"
+      given-names: "Bo"
+    - family-names: "Zhang"
+      given-names: "Chengyang"
+    - family-names: "Xu"
+      given-names: "Jinfeng"
+    - family-names: "Lin"
+      given-names: "Zheng"
+    - family-names: "Zang"
+      given-names: "Zelin"
+    - family-names: "Lei"
+      given-names: "Zhen"
+    - family-names: "Luo"
+      given-names: "Jiebo"
+    - family-names: "Leung"
+      given-names: "Victor C. M."
+    - family-names: "Li"
+      given-names: "Stan Z."
+references:
+  - type: article
+    title: "WeightLoop: Weight-Space Programming with Experimental Feedback"
+    journal: arXiv
+    year: 2026
+    doi: "10.48550/arXiv.2611.07319"
+    url: "https://arxiv.org/abs/2611.07319"
+    authors:
+      - family-names: "Li"
+        given-names: "Mengran"
+      - family-names: "Li"
+        given-names: "Bo"
+      - family-names: "Zhao"
+        given-names: "Weijing"
+      - family-names: "Zhang"
+        given-names: "Chengyang"
+      - family-names: "Zhang"
+        given-names: "Boyu"
+      - family-names: "Xu"
+        given-names: "Jinfeng"
+      - family-names: "Zang"
+        given-names: "Zelin"
+      - family-names: "Leung"
+        given-names: "Victor C. M."
+      - family-names: "Li"
+        given-names: "Stan Z."

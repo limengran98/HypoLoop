@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "Base": "Initial predictor",
+    "Adam": "Fixed-pool gradient update",
+    "Memory": "Feedback residual interpolation",
+    "Calib": "Output scale and offset"
+  },
+  "family": {
+    "HypoLoop": "Shared numerical editing within the API-selected local pool",
+    "HL-Auto": "Numerically adapted fitting plan",
+    "HL-LLM": "API-revised fitting plan",
+    "HL-Fixed": "Initial fitting plans retained with continued weight fitting",
+    "HL-Once": "One initial edit",
+    "HL-Local": "Fixed API-selected native pool",
+    "HL-Global": "Full-inventory native relocation and plan revision"
+  }
+}
